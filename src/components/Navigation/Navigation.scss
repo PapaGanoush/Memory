@@ -1,0 +1,24 @@
+.navbar {
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  background-color: #212121;
+  height: 140px;
+
+  .navigate {
+    display: block;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+    a {
+      color: white;
+      font-size: 26px;
+      text-shadow:  2px 2px black;
+
+      &:hover {
+        cursor: pointer;
+        font-size: 30px;
+      }
+    }
+  }
+}

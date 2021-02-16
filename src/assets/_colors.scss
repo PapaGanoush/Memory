@@ -1,0 +1,350 @@
+//
+// Color Variables
+// --------------------------------------------------
+
+// Self defined Colors
+// --------------------------------------------------
+
+$color-gray-border: #eee;
+$color-gray-background: #f5f5f5;
+
+// Core Colors
+// --------------------------------------------------
+
+// White
+$color-white: #fff !default;
+
+// Navy
+$color-navy: #015 !default;
+
+// Blue
+$color-blue: #1781e3 !default;
+$color-blue-40: #a2cdf4 !default;
+$color-blue-20: #d1e6f9 !default;
+
+// Aluminum
+$color-aluminum: #dde3e7 !default;
+$color-aluminum-80: #e4e9ec !default;
+
+// Horizon
+$color-horizon: #eef3f6 !default;
+$color-horizon-40: #f8fafb !default;
+$color-gray-light-1: #f5f5f5;
+
+// Dark gray
+$color-gray: #333 !default;
+$color-gray-90: #474747 !default;
+$color-gray-80: #5c5c5c !default;
+$color-gray-60: #858585 !default;
+$color-gray-40: #adadad !default;
+$color-gray-20: #d6d6d6 !default;
+
+// Mid gray
+$color-gray-mid: #666 !default;
+
+// Light gray
+$color-gray-light: #bbb !default;
+
+// Brand Colors
+// --------------------------------------------------
+
+// Swisscom Blue
+$color-sc-blue: #1af !default;
+
+// Swisscom Red
+$color-sc-red: #d12 !default;
+
+// Swisscom Purple
+$color-sc-purple: #516 !default;
+
+// Swisscom Navy
+$color-sc-navy: $color-navy !default;
+
+// Swisscom White
+$color-sc-white: $color-white !default;
+
+// Swisscom Dark gray
+$color-sc-gray: $color-gray !default;
+
+// Swisscom Mid gray
+$color-sc-gray-mid: $color-gray-mid !default;
+
+// Swisscom Light gray
+$color-sc-gray-light: $color-gray-light !default;
+
+// Interaction Colors
+// --------------------------------------------------
+
+// Interaction Blue
+$color-int-blue: #1781e3 !default;
+// Interaction Blue Active
+$color-int-blue--active: #0851da !default;
+
+// Interaction Gray
+$color-int-gray: #cfd5d9 !default;
+// Interaction Gray Active
+$color-int-gray--active: #b1b9be !default;
+
+// Interaction Green
+$color-int-green: #25b252 !default;
+// Interaction Green Active
+$color-int-green--active: #008236 !default;
+
+// Interaction Red
+$color-int-red: #d12 !default;
+// Interaction Red Active
+$color-int-red--active: #be0000 !default;
+
+// Interaction Orange
+$color-int-orange: #ff8b2e !default;
+// Interaction Orange Active
+$color-int-orange--active: #e86416 !default;
+
+// Content Colors
+// --------------------------------------------------
+
+// Orchid
+$color-orchid: #a63297 !default;
+// Orchid Active
+$color-orchid--active: #7f2879 !default;
+
+// Iris
+$color-iris: #5944c6 !default;
+// Iris Active
+$color-iris--active: #42389e !default;
+
+// Pink
+$color-pink: #e61e64 !default;
+// Pink Active
+$color-pink--active: #bf1b5a !default;
+
+// Turquoise
+$color-turquoise: #0eaba9 !default;
+// Turquoise Active
+$color-turquoise--active: #0c847e !default;
+
+// Apple
+$color-apple: #91ba2f !default;
+// Apple Active
+$color-apple--active: #759126 !default;
+
+// Petrol
+$color-petrol: #19657a !default;
+// Petrol Active
+$color-petrol--active: #114551 !default;
+
+// Filetype Colors
+// --------------------------------------------------
+
+$color-file-excel: #008236 !default;
+$color-file-powerpoint: #e86416 !default;
+$color-file-word: #1781e3 !default;
+$color-file-pdf: #d12 !default;
+
+// Generic Colors
+// --------------------------------------------------
+
+$color-black: #000 !default;
+$color-disabled: #d8d8d8 !default;
+
+// Selection Colors
+// --------------------------------------------------
+
+$color-selection-fg: $color-white !default;
+$color-selection-bg: $color-gray !default;
+
+// Button Colors
+// --------------------------------------------------
+
+$color-button-primary: $color-int-blue !default;
+$color-button-primary--active: $color-int-blue--active !default;
+$color-button-secondary: $color-int-gray !default;
+$color-button-secondary--active: $color-int-gray--active !default;
+$color-button-confirm: $color-int-green !default;
+$color-button-confirm--active: $color-int-green--active !default;
+
+// Link Colors
+// --------------------------------------------------
+
+$color-link: $color-int-blue !default;
+$color-link--active: $color-int-blue--active !default;
+
+$color-link-dark: $color-white !default;
+$color-link-dark--active: $color-int-blue !default;
+
+// Form Colors
+// --------------------------------------------------
+
+// Input Fields
+// -------------------------
+
+$color-input-bg: $color-white !default;
+$color-input-placeholder: $color-gray-light !default;
+
+$color-input-label: $color-gray-mid !default;
+
+$color-input-normal-form: $color-gray-20 !default;
+$color-input-normal-text: $color-gray !default;
+
+$color-input-selected-form: $color-int-blue !default;
+$color-input-selected-text: $color-gray !default;
+
+$color-input-disabled-bg: $color-horizon-40 !default;
+$color-input-disabled-form: $color-aluminum !default;
+$color-input-disabled-text: $color-gray-light !default;
+
+$color-input-invalid-form: $color-int-orange--active !default;
+$color-input-invalid-text: $color-int-orange !default;
+
+$color-input-success-form: $color-gray-mid !default;
+$color-input-success-text: $color-gray !default;
+$color-input-success-icon: $color-int-green !default;
+
+$color-input-autocomplete-bg: $color-white !default;
+$color-input-autocomplete-bg-hover: $color-horizon !default;
+$color-input-autocomplete-text: $color-gray !default;
+$color-input-autocomplete-text: $color-gray !default;
+
+// Radio Buttons
+// -------------------------
+
+$color-radio-label: $color-gray !default;
+$color-radio-supporting: $color-gray-mid !default;
+
+$color-radio-empty: $color-gray-40 !default;
+$color-radio-fill: $color-int-blue !default;
+
+// Checkboxes
+// -------------------------
+
+$color-checkbox-label: $color-gray !default;
+$color-checkbox-supporting: $color-gray-mid !default;
+
+$color-checkbox-empty: $color-gray-40 !default;
+$color-checkbox-fill: $color-int-green !default;
+$color-checkbox-fill-hover: $color-int-green--active !default;
+$color-checkbox-focus: $color-int-blue !default;
+
+$color-checkbox-inverted-bg: $color-white !default;
+$color-checkbox-inverted-fill: $color-int-blue !default;
+$color-checkbox-inverted-fill-hover: $color-int-blue--active !default;
+$color-checkbox-inverted-focus: $color-int-blue--active !default;
+
+// Card Colors
+// --------------------------------------------------
+
+$color-card-bg: $color-white !default;
+$color-card-bg--active: #f0f5f7 !default;
+$color-card-gray-bg: $color-horizon !default;
+$color-card-gray-bg--active: #e0e5e9 !default;
+
+$color-card-navy: $color-navy !default;
+$color-card-blue: $color-blue !default;
+$color-card-purple: $color-orchid !default;
+$color-card-turquoise: $color-turquoise !default;
+$color-card-apple: $color-apple !default;
+$color-card-iris: $color-iris !default;
+$color-card-petrol: $color-petrol !default;
+$color-card-pink: $color-pink !default;
+
+// Table Colors
+// --------------------------------------------------
+
+$color-table-text: $color-gray !default;
+$color-table-border: $color-gray-40 !default;
+$color-table-header-dark: #f9fafc !default;
+
+// Loader Colors
+// --------------------------------------------------
+
+$color-loader-bar-bg: #d8d8d8 !default;
+
+// Tabs Colors
+// --------------------------------------------------
+
+$color-tabs-light-border: $color-gray-20 !default;
+$color-tabs-dark-border: $color-white !default;
+
+$color-tabs-light-indicator: $color-int-blue !default;
+$color-tabs-dark-indicator: $color-white !default;
+$color-tabs-dark-inverted-indicator: $color-navy !default;
+
+$color-tabs-light-text: $color-navy !default;
+$color-tabs-light-hover-text: $color-int-blue !default;
+$color-tabs-light-disabled-text: $color-gray !default;
+
+$color-tabs-dark-text: $color-white !default;
+$color-tabs-dark-hover-text: $color-white !default;
+$color-tabs-dark-disabled-text: $color-white !default;
+
+$color-tabs-dark-inverted-text: $color-navy !default;
+$color-tabs-dark-inverted-hover-text: $color-navy !default;
+$color-tabs-dark-inverted-disabled-text: $color-gray !default;
+
+// Accordion Colors
+// --------------------------------------------------
+
+$color-accordion: $color-gray-60 !default;
+$color-accordion--active: $color-navy !default;
+
+// Navigation Colors
+// --------------------------------------------------
+
+$color-nav-bg: $color-white !default;
+$color-nav-menu-bg: $color-horizon !default;
+$color-nav-footer-bg: #e3e9ec !default;
+
+$color-nav-divider: #dce3e7 !default;
+
+$color-nav-link: $color-navy !default;
+$color-nav-link--active: $color-int-blue--active !default;
+
+$color-nav-link-alt: $color-gray-mid !default;
+$color-nav-link-alt--active: $color-int-blue--active !default;
+
+// Search Colors
+// --------------------------------------------------
+
+$color-search-inactive-bg: $color-horizon !default;
+$color-search-light-bg: $color-blue-20 !default;
+$color-search-dark-bg: $color-blue !default;
+
+$color-search-inactive-text: $color-gray-mid !default;
+$color-search-light-text: $color-gray !default;
+$color-search-dark-text: $color-white !default;
+
+$color-search-live-bg: $color-white !default;
+$color-search-live-text: $color-gray !default;
+$color-search-live-text-match: #0083ea !default;
+
+// Footer Colors
+// --------------------------------------------------
+
+$color-footer-dark-bg: $color-gray-90 !default;
+$color-footer-dark-bg-second: $color-gray !default;
+$color-footer-dark-divider: rgba($color-white, 0.4) !default;
+
+$color-footer-light-bg: $color-horizon !default;
+$color-footer-light-bg-second: $color-aluminum !default;
+$color-footer-light-divider: $color-gray-light !default;
+
+$color-footer-dark-link: $color-white !default;
+$color-footer-dark-link--active: $color-int-blue !default;
+
+$color-footer-light-link: $color-gray !default;
+$color-footer-light-link--active: $color-int-blue !default;
+
+$color-footer-light-link-top: $color-gray-mid !default;
+$color-footer-light-link-bottom: #3c3c3c !default;
+
+// Chart Colors
+// --------------------------------------------------
+
+$color-chart-divider: #979797 !default;
+$color-chart-bar-vertical-empty: #e0e6e9 !default;
+
+// Comment Colors
+// --------------------------------------------------
+
+$color-comment-border: $color-aluminum-80 !default;
+$color-comment-dark-border: #8088aa !default;
